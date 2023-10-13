@@ -1,0 +1,8 @@
+hello_world:
+  module: hello
+  class: HelloWorld
+
+crypto:
+  module: crypto
+  class: Crypto
+  token: !secret coinmarketcap_token
