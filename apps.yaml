@@ -1,0 +1,10 @@
+hello_world:
+  module: hello
+  class: HelloWorld
+
+TelegramBotEventListener:
+  module: TelegramBotEventListener
+  class: TelegramBot
+  hass:
+    token: !env_var TOKEN
+    ha_url: !env_var HA_URL
